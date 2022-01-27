@@ -183,6 +183,9 @@ p {
   height: 10px;
   background: #d8d8d8;
 }
+.title {
+  text-align: center;
+}
 /* Container  */
 .container {
   max-width: 1300px;
@@ -338,9 +341,7 @@ p {
   background: #efefef;
   padding: 100px 0 150px 0;
 }
-.blog-section header {
-  text-align: center;
-}
+
 .blog {
   background: #fff;
   margin: 28px 0;
@@ -376,4 +377,16 @@ p {
 .btn-read:hover {
   background: #cf3732;
   color: #fff;
+}
+
+/* Work */
+.work {
+  background: #fff;
+  padding: 100px 0;
+}
+.work-img-container {
+  margin-top: 32px;
+}
+.work-img-container img {
+  width: 22.22%;
 }
