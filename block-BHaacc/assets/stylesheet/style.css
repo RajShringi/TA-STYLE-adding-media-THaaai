@@ -146,6 +146,15 @@ img {
 a {
   text-decoration: none;
 }
+h2 {
+  color: #393939;
+  font-size: 28px;
+  font-weight: 500;
+}
+p {
+  color: #7c7c7c;
+  margin-bottom: 16px;
+}
 /* Custom Styles */
 .padding {
   padding: 32px 0;
@@ -156,6 +165,17 @@ a {
   border-radius: 25px;
   font-weight: 500;
   font-size: 14px;
+}
+
+.dots {
+  padding-top: 6px;
+  padding-bottom: 16px;
+}
+.box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #d8d8d8;
 }
 /* Container  */
 .container {
@@ -173,6 +193,12 @@ a {
 .start {
   justify-content: flex-start;
 }
+.align-start {
+  align-items: flex-start;
+}
+.direction-col {
+  flex-direction: column;
+}
 /* Header */
 .header {
   background: linear-gradient(
@@ -183,6 +209,7 @@ a {
     url("../media/home-bg.jpg") no-repeat;
   height: 100vh;
   background-size: cover;
+  background-position: center center;
   color: #fff;
 }
 .nav {
@@ -242,4 +269,56 @@ a {
 }
 .btn-start:hover {
   background: rgba(241, 241, 241, 0.3);
+}
+
+/* Introduce Section */
+.intro {
+  background: #fff;
+  padding-top: 100px;
+}
+
+.intro-container {
+  position: relative;
+  padding: 50px 0;
+}
+
+.intro-article {
+  width: 40%;
+}
+
+.skills {
+  width: 23%;
+  margin-left: 40px;
+}
+
+.intro-img {
+  width: 30%;
+  position: absolute;
+  top: -12px;
+  right: 0;
+  z-index: 0;
+}
+
+.skill {
+  margin-bottom: 32px;
+}
+.skill p {
+  margin-bottom: 10px;
+  color: #494949;
+  font-weight: 600;
+}
+
+.line {
+  width: 85%;
+  height: 3px;
+  background: #1e1e1e;
+}
+.photography {
+  width: 90%;
+}
+.marketing {
+  width: 75%;
+}
+.admin {
+  width: 70%;
 }
