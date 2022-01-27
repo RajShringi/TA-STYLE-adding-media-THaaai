@@ -390,3 +390,48 @@ p {
 .work-img-container img {
   width: 22.22%;
 }
+
+/* Contact */
+.contact {
+  background: linear-gradient(
+    to right,
+    rgba(39, 131, 216, 1),
+    rgba(123, 238, 104, 1)
+  );
+  padding: 100px 0;
+}
+.contact h2 {
+  color: #fff;
+}
+
+.info form {
+  width: 65%;
+}
+.info .map {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+}
+
+form input,
+form select,
+form textarea {
+  width: 47%;
+  border: 0;
+  padding: 24px 16px;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 32px;
+  color: #7c7c7c;
+  font-weight: 600;
+}
+
+form textarea {
+  width: 100%;
+}
+
+.btn-send {
+  padding: 16px 32px;
+}
