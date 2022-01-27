@@ -148,7 +148,13 @@ a {
 }
 h2 {
   color: #393939;
-  font-size: 28px;
+  font-size: 30px;
+  font-weight: 500;
+}
+h3 {
+  color: #393939;
+  font-size: 24px;
+  margin: 16px 0;
   font-weight: 500;
 }
 p {
@@ -198,6 +204,9 @@ p {
 }
 .direction-col {
   flex-direction: column;
+}
+.wrap {
+  flex-wrap: wrap;
 }
 /* Header */
 .header {
@@ -259,6 +268,7 @@ p {
 .hero-contact p {
   font-size: 14px;
   font-weight: 500;
+  color: #fff;
 }
 
 .btn-start {
@@ -321,4 +331,49 @@ p {
 }
 .admin {
   width: 70%;
+}
+
+/* Blog */
+.blog-section {
+  background: #efefef;
+  padding: 100px 0 150px 0;
+}
+.blog-section header {
+  text-align: center;
+}
+.blog {
+  background: #fff;
+  margin: 28px 0;
+  width: 48%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.blog figure {
+  width: 40%;
+}
+
+.blog article {
+  width: 55%;
+}
+
+.date-container {
+  color: #cf3732;
+  font-weight: 600;
+}
+.date-container p {
+  margin-bottom: 0;
+  margin-left: 12px;
+  font-size: 12px;
+  color: #cf3732;
+}
+
+.btn-read {
+  display: inline-block;
+  background: #efefef;
+  color: #4a4a4a;
+  padding: 14px 24px;
+  margin: 32px 0;
+}
+.btn-read:hover {
+  background: #cf3732;
+  color: #fff;
 }
