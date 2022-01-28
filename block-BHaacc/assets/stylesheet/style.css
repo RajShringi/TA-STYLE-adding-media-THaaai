@@ -1,0 +1,480 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  color: #393939;
+  font-size: 30px;
+  font-weight: 500;
+}
+h3 {
+  color: #393939;
+  font-size: 24px;
+  margin: 16px 0;
+  font-weight: 500;
+}
+p {
+  color: #7c7c7c;
+  margin-bottom: 16px;
+}
+/* Custom Styles */
+.padding {
+  padding: 32px 0;
+}
+.btn {
+  color: #fff;
+  background: #cf3732;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.dots {
+  padding-top: 6px;
+  padding-bottom: 16px;
+}
+.box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #d8d8d8;
+}
+.title {
+  text-align: center;
+}
+/* Container  */
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.start {
+  justify-content: flex-start;
+}
+.align-start {
+  align-items: flex-start;
+}
+.direction-col {
+  flex-direction: column;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+/* Header */
+.header {
+  background: linear-gradient(
+      to right,
+      rgba(39, 131, 216, 0.7),
+      rgba(123, 238, 104, 0.7)
+    ),
+    url("../media/home-bg.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+}
+.nav {
+  width: 50%;
+}
+.logo {
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+}
+.nav a,
+.social-links-nav a {
+  color: #fff;
+  font-weight: 600;
+  margin-left: 50px;
+}
+.social-links-nav a {
+  margin-left: 32px;
+}
+.nav a:hover,
+.social-links-nav a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.btn-join {
+  padding: 14px 24px;
+}
+
+/* Hero */
+.hero {
+  padding: 200px 0;
+}
+.hero article,
+.hero figure {
+  width: 47.5%;
+}
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 64px;
+}
+.hero-contact {
+  margin-left: 32px;
+}
+.hero-contact address {
+  font-weight: 600;
+}
+.hero-contact p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.btn-start {
+  padding: 14px 28px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  background: transparent;
+}
+.btn-start:hover {
+  background: rgba(241, 241, 241, 0.3);
+}
+
+/* Introduce Section */
+.intro {
+  background: #fff;
+  padding-top: 100px;
+}
+
+.intro-container {
+  position: relative;
+  padding: 50px 0;
+}
+
+.intro-article {
+  width: 40%;
+}
+
+.skills {
+  width: 23%;
+  margin-left: 40px;
+}
+
+.intro-img {
+  width: 30%;
+  position: absolute;
+  top: -12px;
+  right: 0;
+  z-index: 0;
+}
+
+.skill {
+  margin-bottom: 32px;
+}
+.skill p {
+  margin-bottom: 10px;
+  color: #494949;
+  font-weight: 600;
+}
+
+.line {
+  width: 85%;
+  height: 3px;
+  background: #1e1e1e;
+}
+.photography {
+  width: 90%;
+}
+.marketing {
+  width: 75%;
+}
+.admin {
+  width: 70%;
+}
+
+/* Blog */
+.blog-section {
+  background: #efefef;
+  padding: 100px 0 150px 0;
+}
+
+.blog {
+  background: #fff;
+  margin: 28px 0;
+  width: 48%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.blog figure {
+  width: 40%;
+}
+
+.blog article {
+  width: 55%;
+}
+
+.date-container {
+  color: #cf3732;
+  font-weight: 600;
+}
+.date-container p {
+  margin-bottom: 0;
+  margin-left: 12px;
+  font-size: 12px;
+  color: #cf3732;
+}
+
+.btn-read {
+  display: inline-block;
+  background: #efefef;
+  color: #4a4a4a;
+  padding: 14px 24px;
+  margin: 32px 0;
+}
+.btn-read:hover {
+  background: #cf3732;
+  color: #fff;
+}
+
+/* Work */
+.work {
+  background: #fff;
+  padding: 100px 0;
+}
+.work-img-container {
+  margin-top: 32px;
+}
+.work-img-container img {
+  width: 22.22%;
+}
+
+/* Contact */
+.contact {
+  background: linear-gradient(
+    to right,
+    rgba(39, 131, 216, 1),
+    rgba(123, 238, 104, 1)
+  );
+  padding: 100px 0;
+}
+.contact h2 {
+  color: #fff;
+}
+
+.info form {
+  width: 65%;
+}
+.info .map {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+}
+
+form input,
+form select,
+form textarea {
+  width: 47%;
+  border: 0;
+  padding: 24px 16px;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 32px;
+  color: #7c7c7c;
+  font-weight: 600;
+}
+
+form textarea {
+  width: 100%;
+}
+
+.btn-send {
+  padding: 16px 32px;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #424242 10%, #000 90%);
+  padding: 100px 0;
+}
+.footer-container {
+  padding: 32px 0;
+}
+footer a {
+  color: #fff;
+}
+.footer-container div > * {
+  color: #fff;
+}
+
+.footer-col {
+  width: 20%;
+}
+.footer-hero {
+  width: 30%;
+}
+.footer-col h2 {
+  margin-bottom: 16px;
+}
+.footer-col a {
+  display: inline-block;
+  margin: 8px 0;
+}
+.footer hr {
+  color: #2a2a2a;
+}
+
+.footer-social-links-container {
+  padding: 32px 0;
+}
+.footer-social-links-container > * {
+  color: #fff;
+}
+.footer-social-links-container p {
+  width: 50%;
+  font-weight: 300;
+}
